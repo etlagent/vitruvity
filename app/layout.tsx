@@ -26,7 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <header className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
                     <a href="/" className="font-semibold">Vitruvity</a>
                     <nav className="flex gap-6 text-sm">
-                        <Link href="/" className="text-slate-600 hover:text-slate-900">Home</Link>
+                        {/* <Link href="/" className="text-slate-600 hover:text-slate-900">Home</Link> */}
                         <div className="relative group">
                             <button className="hover:text-slate-600">My AI ▼</button>
                             <div className="absolute top-full left-0 mt-1 bg-white border border-slate-200 rounded shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-10">
